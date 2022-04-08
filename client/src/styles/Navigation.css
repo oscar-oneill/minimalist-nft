@@ -1,0 +1,73 @@
+#navigation {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+}
+
+.project_name {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    margin-left: 4px;
+}
+
+.nav_button {
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    padding: 5px 8px 5px 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-family: "programme";
+    letter-spacing: -0.5px;
+    color: aliceblue;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.nav_address {
+    height: auto;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    background: rgba( 168, 64, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    height: 17px;
+    width: 17px;
+    object-fit: contain;
+    margin-right: 4px;
+}
+
+.nav_address span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+@media screen and (max-width: 430px) {
+    #title {
+        display: none;
+    }
+}

@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-synthesis: none;
+  text-decoration: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow: -moz-scrollbars-none;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "programme";
+  src: url('../assets/programme.woff2');
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "programme";
+  letter-spacing: -0.5px;
+}
+
+.app_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
